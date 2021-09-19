@@ -600,6 +600,12 @@ template {
 .rating__counter {
   font-size: 14px;
   line-height: 18px;
+  font-style: Bold !important;
+}
+
+.rating__amount {
+  font-size: 10px;
+  line-height: 13px;
 }
 
 @media (max-width: 1200px) {
