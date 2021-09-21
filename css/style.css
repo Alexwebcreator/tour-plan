@@ -711,9 +711,9 @@ template {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -779,7 +779,6 @@ template {
 }
 
 .booking__heading {
-  font-style: SemiBold;
   font-weight: 600;
   font-size: 18px;
   line-height: 25px;
@@ -797,7 +796,6 @@ template {
           justify-content: space-between;
   color: inherit;
   text-decoration: none;
-  font-style: SemiBold;
   font-weight: 600;
   font-size: 18px;
   line-height: 25px;
@@ -809,9 +807,9 @@ template {
 
 .booking__button {
   width: 100%;
-  font-style: SemiBold;
   font-size: 14px;
   line-height: 19px;
+  font-weight: 600;
   min-height: 45px;
   border-radius: 4px;
   background-color: #EC1F46;
@@ -898,11 +896,6 @@ iframe {
     padding-left: 23px;
     padding-right: 22px;
     max-height: 210px;
-  }
-  .booking__price {
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: start;
   }
   .booking__pricetag {
     max-height: 30px;
@@ -1041,6 +1034,14 @@ iframe {
   }
   .slider {
     height: 250px;
+  }
+  .slider-button--prev {
+    left: 10px;
+    background-image: url(../img/arrow-prev-ltl.svg);
+  }
+  .slider-button--next {
+    right: 10px;
+    background-image: url(../img/arrow-next-ltl.svg);
   }
   .booking__number {
     margin-right: 4px;
