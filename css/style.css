@@ -1069,7 +1069,7 @@ iframe {
             order: -1;
     margin-left: 0;
   }
-  .hotel-info-right {
+  .hotel-right {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
