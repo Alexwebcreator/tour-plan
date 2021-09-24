@@ -940,11 +940,6 @@ iframe {
   margin-bottom: 70px;
 }
 
-.reviews-slider {
-  max-height: 345px;
-  overflow: auto;
-}
-
 .reviews-slider__item {
   position: relative;
   display: -webkit-box;
@@ -1068,7 +1063,9 @@ iframe {
 
 .reviews-slider__text {
   max-width: 537px;
+  max-height: 140px;
   font-weight: normal;
+  overflow-y: auto;
   font-size: 12px;
   line-height: 19px;
   line-height: 160%;
@@ -1514,9 +1511,6 @@ iframe {
     margin-top: 28px;
     margin-bottom: 40px;
   }
-  .reviews-slider {
-    max-height: 490px;
-  }
   .reviews-slider__button {
     top: 32px;
   }
@@ -1534,6 +1528,7 @@ iframe {
   }
   .reviews-slider__text {
     text-align: left;
+    max-height: 400px;
   }
   .reviews-slider__username {
     margin-top: 10px;
