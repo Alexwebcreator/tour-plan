@@ -1279,6 +1279,18 @@ iframe {
   .activities__card {
     margin-bottom: 20px;
   }
+  .activities__card--first {
+    padding-right: 100px;
+  }
+  .activities__card--second {
+    padding-right: 120px;
+  }
+  .activities__card--third {
+    padding-right: 120px;
+  }
+  .activities__card--fourth {
+    padding-right: 100px;
+  }
   .card {
     width: 340px;
     height: 255px;
