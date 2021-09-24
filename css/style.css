@@ -841,6 +841,7 @@ iframe {
   max-height: 260px;
   background-image: url(../img/newsletter-bg.jpg);
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-position: center;
   background-size: cover;
 }
@@ -921,7 +922,9 @@ iframe {
   background-color: #EC1F46;
   color: #fff;
   min-height: 55px;
-  width: 65px;
+  padding-right: 18px;
+  padding-left: 18px;
+  cursor: pointer;
 }
 
 .reviews {
@@ -935,6 +938,11 @@ iframe {
   text-align: Center;
   text-transform: uppercase;
   margin-bottom: 70px;
+}
+
+.reviews-slider {
+  max-height: 345px;
+  overflow: auto;
 }
 
 .reviews-slider__item {
@@ -1356,6 +1364,11 @@ iframe {
   .map {
     width: 100%;
   }
+  .newsletter {
+    padding: 70px 0 83px 0;
+    margin: 0;
+    min-height: 319px;
+  }
   .newsletter-wrapper {
     max-width: 576px;
     width: 92%;
@@ -1459,11 +1472,6 @@ iframe {
   .map {
     height: 173px;
   }
-  .newsletter {
-    padding: 70px 0 83px 0;
-    margin: 0;
-    min-height: 319px;
-  }
   .newsletter__title {
     margin-bottom: 37px;
     font-size: 20px;
@@ -1494,6 +1502,9 @@ iframe {
     margin-top: 28px;
     margin-bottom: 40px;
   }
+  .reviews-slider {
+    max-height: 490px;
+  }
   .reviews-slider__button {
     top: 32px;
   }
@@ -1510,7 +1521,7 @@ iframe {
             transform: translate(50%, 0);
   }
   .reviews-slider__text {
-    text-align: normal;
+    text-align: left;
   }
   .reviews-slider__username {
     margin-top: 10px;
