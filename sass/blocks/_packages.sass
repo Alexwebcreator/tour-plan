@@ -1,0 +1,123 @@
+.packages
+  padding-bottom: 70px
+  &__title
+    font-weight: bold
+    font-size: 36px
+    line-height: 45px
+    text-align: center
+    text-transform: uppercase
+    margin-top: 42px
+    margin-bottom: 65px
+  &-wrapper
+    display: grid
+    grid-template-columns: 1fr 1fr 1fr
+    grid-template-rows: 500px 500px
+    row-gap: 30px
+    column-gap: 30px
+    justify-content: space-between
+  &-card
+    position: relative
+    overflow: hidden
+    display: flex
+    flex-direction: column
+    border-radius: 8px
+    &__picture
+      min-width: 366px
+      height: 500px
+      object-fit: cover
+      &--other
+        width: 100%
+        height: 250px
+        object-fit: cover
+    &__offer
+      position: absolute
+      margin-top: 26px
+      font-size: 8px
+      line-height: 10px
+      border-radius: 0px 4px 4px 0px
+      &--blue
+        width: 95px
+        height: 30px
+        padding-top: 8px
+        padding-left: 12px
+        font-size: 12px
+        line-height: 15px
+    &__title
+      margin-bottom: 0
+      margin-top: 0
+      font-size: 18px
+      line-height: 23px
+      font-weight: bold
+      &--blue
+        margin-top: 5px
+    &--blue
+      flex-direction: row
+      max-width: 730px
+      max-height: 500px
+      grid-column: 1/3
+      grid-row: 1/2
+    &__image
+      position: relative
+      max-height: 250px
+      &--blue
+        max-width: 366px
+        height: 100%
+    &__name
+      display: flex
+      flex-direction: column
+      align-content: flex-start
+    &__rating
+      height: 8px
+      display: flex
+    &__text
+      font-size: 14px
+      line-height: 22px
+      margin-top: -10px
+      max-height: 175px
+      overflow-y: auto
+    &__info
+      height: 100%
+      margin: 0
+      display: flex
+      flex-direction: column
+      justify-content: space-between
+      background-color: $dark
+      color: $light
+      padding: 30px 21px 25px 32px
+      &--blue
+        max-width: 364px
+        max-height: 500px
+        padding: 46px 21px 30px 44px
+    &__item
+      max-width: 203px
+      height: 67px
+      justify-content: space-between
+      font-size: 12px
+      line-height: 15px
+      font-weight: normal
+      margin-top: 0px
+      margin-left: 2px
+    &__item div:not(:last-child)
+      margin-bottom: 11px
+    &__description
+      display: flex
+      align-items: center
+    &__words
+      margin-left: 14px
+    &__booking
+      display: flex
+      justify-content: space-between
+    &__price
+      display: flex
+      flex-direction: column
+      align-content: flex-start
+      margin-bottom: 5px
+    &__oldprice
+      text-decoration: line-through
+      font-size: 14px
+      line-height: 18px
+      margin-bottom: 5px
+    &__newprice
+      font-weight: bold
+      font-size: 24px
+      line-height: 30px
