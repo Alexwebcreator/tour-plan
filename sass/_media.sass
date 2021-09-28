@@ -64,10 +64,10 @@
   .packages
     &-wrapper
       grid-template-columns: 1fr 1fr
-      grid-template-rows: 500px 500px 500px
       row-gap: 30px
       column-gap: 30px
     &-card
+      min-height: 500px
       &__picture
         min-width: 350px
   .newsletter
@@ -314,6 +314,10 @@
   .map
     height: 173px
   .packages
+    &__title
+      font-size: 18px
+      line-height: 23px
+      line-height: 100%
     &-wrapper
       grid-template-columns: 1fr
     &-card
@@ -321,6 +325,8 @@
       &--blue
         flex-direction: column
         justify-content: space-between
+        grid-column: 1/2
+        grid-row: 1 / 3
       &__image
         width: 100%
         &--blue
