@@ -640,10 +640,6 @@ template {
   width: 100%;
 }
 
-.stars-img__packages {
-  margin-right: 2px;
-}
-
 .stars-box {
   max-width: 48px;
   display: -webkit-box;
@@ -881,6 +877,10 @@ iframe {
   border-radius: 8px;
 }
 
+.packages-card__stars {
+  margin-right: 2px;
+}
+
 .packages-card__picture {
   min-width: 366px;
   height: 500px;
@@ -1061,6 +1061,22 @@ iframe {
   font-weight: bold;
   font-size: 24px;
   line-height: 30px;
+}
+
+.packages-card__button {
+  font-family: Nunito;
+  color: #fff;
+  padding: 7px 22px;
+  border: none;
+  background-color: #EC1F46;
+  border-radius: 4px;
+  cursor: pointer;
+  height: 40px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  padding: 0px 27px 0px 26px;
+  margin-top: 17px;
 }
 
 .newsletter {
@@ -1608,6 +1624,21 @@ iframe {
   line-height: 15px;
   line-height: 100%;
   font-weight: normal;
+}
+
+.footer__input::-webkit-input-placeholder {
+  color: #BDBDBD;
+}
+
+.footer__input:-ms-input-placeholder {
+  color: #BDBDBD;
+}
+
+.footer__input::-ms-input-placeholder {
+  color: #BDBDBD;
+}
+
+.footer__input::placeholder {
   color: #BDBDBD;
 }
 
@@ -1625,6 +1656,21 @@ iframe {
   line-height: 15px;
   line-height: 100%;
   font-weight: normal;
+}
+
+.footer__message::-webkit-input-placeholder {
+  color: #BDBDBD;
+}
+
+.footer__message:-ms-input-placeholder {
+  color: #BDBDBD;
+}
+
+.footer__message::-ms-input-placeholder {
+  color: #BDBDBD;
+}
+
+.footer__message::placeholder {
   color: #BDBDBD;
 }
 
@@ -1640,6 +1686,7 @@ iframe {
   background-color: #EC1F46;
   border-radius: 4px;
   border: none;
+  cursor: pointer;
 }
 
 .footer__info {
@@ -1682,6 +1729,8 @@ iframe {
   -ms-flex-item-align: self-end;
       -ms-grid-row-align: self-end;
       align-self: self-end;
+  text-decoration: none;
+  color: inherit;
 }
 
 @media (max-width: 1200px) {
