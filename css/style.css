@@ -386,7 +386,7 @@ template {
 .navbar__search {
   margin-right: auto;
   margin-left: 108px;
-  max-width: 90%;
+  max-width: 100%;
 }
 
 .navbar-bottom {
@@ -1985,7 +1985,7 @@ iframe {
     right: 0;
     bottom: 0;
     top: 70px;
-    padding-top: 30px;
+    padding-top: 0;
   }
   .navbar-bottom--visible {
     display: block;
@@ -1998,11 +1998,19 @@ iframe {
             flex-direction: column;
   }
   .navbar-menu__item {
-    margin-top: 20px;
+    margin-top: 16px;
   }
   .navbar-menu__item--mobile--visible {
     display: block;
-    max-width: 100%;
+    width: 100%;
+    margin-top: 13px;
+    margin-bottom: 12px;
+  }
+  .navbar-menu__item--search {
+    margin-bottom: 21px;
+  }
+  .navbar__search--mobile--visible {
+    margin-left: 0;
   }
   .navbar--fixed {
     position: fixed;

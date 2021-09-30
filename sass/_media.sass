@@ -175,18 +175,26 @@
       right: 0
       bottom: 0
       top: 70px
-      padding-top: 30px
+      padding-top: 0
       &--visible
         display: block
         overflow-y: auto
     &-menu
       flex-direction: column
       &__item
-        margin-top: 20px
+        margin-top: 16px
         &--mobile
           &--visible
             display: block
-            max-width: 100%
+            width: 100%
+            margin-top: 13px
+            margin-bottom: 12px
+        &--search
+          margin-bottom: 21px
+    &__search
+      &--mobile
+        &--visible
+          margin-left: 0
     &--fixed
       position: fixed
       left: 0
