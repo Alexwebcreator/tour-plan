@@ -386,6 +386,7 @@ template {
 .navbar__search {
   margin-right: auto;
   margin-left: 108px;
+  max-width: 90%;
 }
 
 .navbar-bottom {
@@ -1982,11 +1983,12 @@ iframe {
     left: 0;
     right: 0;
     bottom: 0;
-    top: 78px;
+    top: 70px;
     padding-top: 30px;
   }
   .navbar-bottom--visible {
     display: block;
+    overflow-y: auto;
   }
   .navbar-menu {
     -webkit-box-orient: vertical;
@@ -1999,6 +2001,7 @@ iframe {
   }
   .navbar-menu__item--mobile--visible {
     display: block;
+    max-width: 100%;
   }
   .navbar--fixed {
     position: fixed;
