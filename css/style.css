@@ -846,7 +846,7 @@ iframe {
   text-align: center;
   text-transform: uppercase;
   margin-top: 42px;
-  margin-bottom: 65px;
+  margin-bottom: 63px;
 }
 
 .packages-wrapper {
@@ -1066,7 +1066,6 @@ iframe {
 .packages-card__button {
   font-family: Nunito;
   color: #fff;
-  padding: 7px 22px;
   border: none;
   background-color: #EC1F46;
   border-radius: 4px;
@@ -1181,7 +1180,7 @@ iframe {
   line-height: 45px;
   text-align: Center;
   text-transform: uppercase;
-  margin-bottom: 70px;
+  margin-bottom: 68px;
 }
 
 .reviews-slider__item {
@@ -1446,7 +1445,7 @@ iframe {
           align-items: start;
 }
 
-.footer__logo {
+.footer__linklogo {
   width: 150px;
   -ms-grid-row: 1;
   -ms-grid-row-span: 2;
@@ -1725,12 +1724,17 @@ iframe {
   margin-bottom: 2px;
 }
 
-.footer__bottom--item {
+.footer__bottom-item {
   -ms-flex-item-align: self-end;
       -ms-grid-row-align: self-end;
       align-self: self-end;
   text-decoration: none;
   color: inherit;
+}
+
+.number {
+  color: inherit;
+  text-decoration: none;
 }
 
 @media (max-width: 1200px) {
@@ -1892,7 +1896,7 @@ iframe {
     grid-row-gap: 50px;
     max-height: 1145px;
   }
-  .footer__logo {
+  .footer__linklogo {
     width: 95px;
     -ms-grid-row: 1;
     -ms-grid-row-span: 1;
@@ -1945,7 +1949,7 @@ iframe {
     -ms-grid-row: 3;
     grid-row: 3;
     margin-left: 1px;
-    margin-top: 13px;
+    margin-top: 11px;
   }
   .footer__contact-form {
     grid-column: span 5;
@@ -2108,7 +2112,7 @@ iframe {
     row-gap: 35px;
     max-height: 100%;
   }
-  .footer__logo {
+  .footer__linklogo {
     -ms-grid-row: 1;
     grid-row: 1;
     -ms-grid-column: 1;
@@ -2214,14 +2218,14 @@ iframe {
     width: 100%;
     min-height: 47px;
   }
-  .footer__bottom--img {
+  .footer__bottom-img {
     width: 136px;
     height: 22px;
   }
-  .footer__bottom--item:nth-child(2) {
+  .footer__bottom-item:nth-child(2) {
     margin-left: -5px;
   }
-  .footer__bottom--item:nth-child(3) {
+  .footer__bottom-item:nth-child(3) {
     margin-right: 5px;
   }
   .footer__input {
@@ -2441,6 +2445,15 @@ iframe {
   }
   .footer {
     padding-bottom: 21px;
+  }
+  .footer__contact-form {
+    margin: 4px 0 0 0;
+  }
+  .footer__message {
+    margin-bottom: 16px;
+  }
+  .footer__button {
+    margin-bottom: 32px;
   }
 }
 /*# sourceMappingURL=style.css.map */
