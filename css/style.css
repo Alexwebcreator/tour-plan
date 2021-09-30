@@ -1868,6 +1868,7 @@ iframe {
   }
   .activities {
     padding-top: 30px;
+    padding-bottom: 49px;
   }
   .activities-wrapper {
     -ms-flex-wrap: wrap;
@@ -2275,6 +2276,8 @@ iframe {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
     width: 100%;
     min-height: 47px;
   }
