@@ -2008,6 +2008,7 @@ iframe {
   }
   .navbar-menu__item--search {
     margin-bottom: 21px;
+    max-width: 400px;
   }
   .navbar__search--mobile--visible {
     margin-left: 0;
