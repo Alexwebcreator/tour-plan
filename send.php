@@ -8,7 +8,7 @@ require 'phpmailer/Exception.php';
 $name = $_POST['name'];
 $phone = $_POST['phone'];
 $message = $_POST['message'];
-
+$userEmail = $_POST['userEmail'];
 
 // Формирование самого письма
 $title = "Новое обращение Best Tour Plan";
@@ -16,7 +16,8 @@ $body = "
 <h2>Новое обращение</h2>
 <b>Имя:</b> $name<br>
 <b>Телефон:</b> $phone<br><br>
-<b>Сообщение:</b><br>$message
+<b>Сообщение:</b><br>$message</b><br>
+<b>Адрес электронной почты:$userEmail
 ";
 
 // Настройки PHPMailer
@@ -25,7 +26,7 @@ try {
     $mail->isSMTP();   
     $mail->CharSet = "UTF-8";
     $mail->SMTPAuth   = true;
-    //$mail->SMTPDebug = 2;
+    $mail->SMTPDebug = 2;
     $mail->Debugoutput = function($str, $level) {$GLOBALS['status'][] = $str;};
 
     // Настройки вашей почты
