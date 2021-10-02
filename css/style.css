@@ -582,6 +582,10 @@ template {
   margin: 0;
 }
 
+.hotel-info__description--thanks {
+  margin-bottom: 50px;
+}
+
 .hotel-name {
   font-size: 24px;
   line-height: 30px;

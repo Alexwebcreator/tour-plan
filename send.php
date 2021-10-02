@@ -31,11 +31,11 @@ try {
 
     // Настройки вашей почты
     $mail->Host       = 'smtp.gmail.com'; // SMTP сервера вашей почты
-    $mail->Username   = 'abezprozvannyh@gmail.com'; // Логин на почте
+    $mail->Username   = 'bezprozvannyha2@gmail.com'; // Логин на почте
     $mail->Password   = 'Angela86!'; // Пароль на почте
     $mail->SMTPSecure = 'ssl';
     $mail->Port       = 465;
-    $mail->setFrom('alexwebinsight@alexwebinsight.ru', 'Александр Безпрозванных'); // Адрес самой почты и имя отправителя
+    $mail->setFrom('bezprozvannyha2@gmail.com', 'Александр Безпрозванных'); // Адрес самой почты и имя отправителя
 
     // Получатель письма
     $mail->addAddress('Sanek72Tob@mail.ru');  
