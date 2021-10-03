@@ -557,8 +557,16 @@
       padding-right: 30px
       padding-left: 30px
       max-width: 600px
-      top: 0
-      left: 5%
-      right: 5%
-      bottom: 0
-      transform: translate(0, 0)
+      width: 90%
+@media (min-width: 992px)
+  .button:hover
+    background: #a01135
+    transition: 0.25s ease
+  .button:active
+    background: #f88502
+    box-shadow: inset 0 0 0 3px #fff
+  .card
+    &__button:hover
+      background: #a01135
+      box-shadow: inset 0 0 0 3px #fff
+      transition: 0.25s ease
