@@ -2759,5 +2759,31 @@ iframe {
     -webkit-transition: 0.2s ease;
     transition: 0.2s ease;
   }
+  .footer__link--social:hover {
+    background-color: #363DF5;
+  }
+  .footer__link--social:active {
+    background-color: #d11212;
+  }
+  .number:hover {
+    text-decoration: underline;
+    -webkit-transition: 0.2s ease;
+    transition: 0.2s ease;
+  }
+  .number:active {
+    color: #363DF5;
+    -webkit-transition: 0.2s ease;
+    transition: 0.2s ease;
+  }
+  .footer__bottom-item:hover {
+    text-decoration: underline;
+    -webkit-transition: 0.2s ease;
+    transition: 0.2s ease;
+  }
+  .footer__bottom-item:active {
+    color: #363DF5;
+    -webkit-transition: 0.2s ease;
+    transition: 0.2s ease;
+  }
 }
 /*# sourceMappingURL=style.css.map */
