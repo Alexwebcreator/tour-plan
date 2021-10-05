@@ -60,6 +60,19 @@ img {
 .invalid {
   color: #EC1F46;
   margin-bottom: -5px;
+  font-size: 14px;
+}
+
+#name-error {
+  margin-top: 5px;
+}
+
+#phone-error {
+  margin-top: 5px;
+}
+
+#email-error {
+  margin-top: 5px;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -1706,6 +1719,7 @@ iframe {
 .footer__input {
   width: 100%;
   outline: none;
+  margin-bottom: 0px;
 }
 
 .footer__input-group {
