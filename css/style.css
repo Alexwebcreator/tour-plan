@@ -2741,6 +2741,7 @@ iframe {
     -webkit-box-ordinal-group: 5;
         -ms-flex-order: 4;
             order: 4;
+    padding-right: 50px;
   }
   .card {
     width: 100%;
