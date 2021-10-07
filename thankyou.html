@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Best Tour Plan - Hotel Booking</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap" rel="stylesheet">
@@ -13,40 +14,40 @@
     href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&family=Nunito:wght@400;600;700;800&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/aos.css">
   <link rel="stylesheet" href="css/style.css">
-  <script src="https://api-maps.yandex.ru/2.1/?apikey=8d393d1b-8e8b-4224-b4d7-cb7298b02923&lang=ru_RU">
-  </script>
 </head>
 
 <body>
   <header class="navbar navbar--fixed">
     <div class="container">
       <div class="navbar-top">
-        <a href="index.html" class="logo">
+        <a href="index.html" class="logo" data-aos="zoom-out-left" data-aos-delay="100">
           <img src="img/horizontal-logo.svg" alt="Logo: Best Tour Plan" class="logo__image">
         </a>
-        <form action="#" class="search navbar__search navbar__search--mobile--hidden">
+        <form action="#" class="search navbar__search navbar__search--mobile--hidden" data-aos="zoom-out-left"
+          data-aos-delay="200">
           <input type="text" class="search__input" placeholder="Search Location">
           <button class="search__button">
             <img src="img/search.svg" alt="Icon: search">
           </button>
         </form>
-
-        <a href="#" class="user navbar__user navbar__user--mobile--hidden">
+  
+        <a href="#" class="user navbar__user navbar__user--mobile--hidden" data-aos="zoom-out-left" data-aos-delay="300">
           <img src="img/user-avatar.jpg" alt="avatar: Nathan" class="avatar user__avatar">
           <span class="user__name">Nathan</span>
         </a>
         <!-- /.user -->
-
+  
         <button class="menu-button navbar-top__menu-button">
           <span class="menu-button__line"></span>
           <span class="menu-button__line"></span>
           <span class="menu-button__line"></span>
         </button>
-
+  
       </div>
       <!-- /.navbar-top -->
-
+  
     </div>
     <!-- /.container -->
     <div class="navbar-bottom">
@@ -92,7 +93,7 @@
         <!-- /.navbar-menu -->
       </div>
     </div>
-
+  
   </header>
   <nav class="breadcrumb">
     <div class="container">
@@ -243,10 +244,11 @@
     <!-- /.container -->
   </footer>
   <!-- /.footer -->
-  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script src="js/jquery-3.6.0.min.js"></script>
   <script src="js/swiper-bundle.min.js"></script>
   <script src="js/jquery.validate.min.js"></script>
   <script src="js/jquery.mask.min.js"></script>
+  <script src="js/aos.js"></script>
   <script src="js/main.js"></script>
 </body>
 
